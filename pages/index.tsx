@@ -20,7 +20,7 @@ const Home: NextPage<ExploreType> = ({ exploreData, cardsData }) => {
       </Head>
 
       {/* Header */}
-      <Header />
+      <Header placeholder={false} />
 
       {/* Banner */}
       <Banner />

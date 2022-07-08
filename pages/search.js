@@ -6,7 +6,7 @@ import { format } from "date-fns";
 import InfoCard from "../components/InfoCard";
 
 function Search({ searchResults }) {
-  console.log(searchResults);
+  // console.log(searchResults);
   const router = useRouter();
   const { location, startDate, endDate, noOfGuests } = router.query;
   const formattedStartDate = format(new Date(startDate), "dd MMMM yy");
